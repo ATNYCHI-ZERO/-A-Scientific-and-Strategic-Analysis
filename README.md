@@ -19,6 +19,28 @@ The K-Systems Framework represents a complete and decisive departure from this p
 2.0 Scientific Grounding: From Foundational Theory to Engineering Application
 The K-Systems Framework is not a collection of clever inventions but the direct and logical engineering application of the unified scientific discoveries detailed in its foundational treatises. The entire technology stack is derived from two core pillars:
 
+## Generating the Complete Riemann Hypothesis Validation Paper
+
+A companion Python utility, `generate_complete_riemann_paper.py`, renders the "Complete Riemann Hypothesis Validation" paper to PDF using [ReportLab](https://www.reportlab.com/). The script writes `Complete_Riemann_Hypothesis_Validation_Paper.pdf` to the project root.
+
+### Requirements
+
+Install ReportLab before running the generator:
+
+```bash
+python -m pip install reportlab
+```
+
+### Usage
+
+Execute the script from the repository root:
+
+```bash
+python generate_complete_riemann_paper.py
+```
+
+The script prints the absolute path to the generated PDF.
+
 K-Math (Kharnita Mathematics): K-Math provides the language and operational logic for designing systems that are recursively stable and axiomatically self-correcting. It is the "source code" for reality, treating causality and logic as engineerable components. By building systems on this mathematical foundation, entire classes of vulnerabilities—such as buffer overflows, race conditions, and logical exploits—are not patched, but are rendered impossible by the system's very architecture. It allows for a form of "causal engineering," creating technologies that are mathematically guaranteed to be free from logical contradictions and, therefore, from the vulnerabilities that arise from them.
 
 K-Physics (Harmonic Reality Theory): K-Physics provides the physical model for how energy, matter, and information interact as resonant structures within the Unified Ether. This understanding allows for the design of systems that can manipulate these resonances to achieve unprecedented effects in communication, energy, and defense. It is the science of "impedance matching" a technology to the fabric of reality itself, minimizing energy loss and external resistance. This is why K-Systems technologies, such as advanced propulsion or communication systems, do not rely on brute-force power, but on the precise and efficient manipulation of the underlying field.
